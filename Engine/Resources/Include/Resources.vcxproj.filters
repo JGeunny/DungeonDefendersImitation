@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Resources">
+      <UniqueIdentifier>{a98b8476-91a9-4628-8276-8c9800d90e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{9567900d-670c-4546-97a1-e3dea5f46f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Export">
+      <UniqueIdentifier>{4f047de3-4542-4f2a-979b-1bfed0874a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\00. VIBuffer">
+      <UniqueIdentifier>{f5f1c377-b478-4aa7-b3c5-93728e3c23ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\01. Texture">
+      <UniqueIdentifier>{720723fb-79ef-4b00-803b-eff2507bbb6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh">
+      <UniqueIdentifier>{a6175c1d-879c-4bd2-8aa9-e90737789c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\00. VIBuffer\00. TriCol">
+      <UniqueIdentifier>{7696737d-0675-45cf-8f09-d34dfec27a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\00. VIBuffer\01. RcTex">
+      <UniqueIdentifier>{1bbbeb9c-de6c-402b-837f-0c3d69dca364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\00. VIBuffer\02. TerrainTex">
+      <UniqueIdentifier>{4f5768ad-1050-4861-8e59-6d92ad32e7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\00. VIBuffer\03. CubeTex">
+      <UniqueIdentifier>{e7a2d01f-723b-40ab-8cab-56ff2cb892a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\01. DynamicMesh">
+      <UniqueIdentifier>{ccfb46ff-8850-4935-87d5-30a733d2d867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\00. StaticMesh">
+      <UniqueIdentifier>{f1b5abd4-1429-4dae-be48-e9ea370e9d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\01. DynamicMesh\00. HierarchyLoader">
+      <UniqueIdentifier>{6a97d6de-f163-4e74-ae9b-291576369926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\01. DynamicMesh\01. AniCtrl">
+      <UniqueIdentifier>{86d99af6-808f-48d2-95b3-c702555f8894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\99. MeshAdmin">
+      <UniqueIdentifier>{e3a0fde3-8eca-4161-9087-13c5230e7ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\02. NaviMesh">
+      <UniqueIdentifier>{89294a06-c571-4106-a0c2-5f91620daf61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\02. NaviMesh\00. Cell">
+      <UniqueIdentifier>{dc847a25-2cee-4742-b607-2fd3dfd6dc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\02. NaviMesh\01. Line">
+      <UniqueIdentifier>{9bdb1e08-4b10-4649-bbde-161ff01c29fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\02. Mesh\02. NaviMesh\02. Curve">
+      <UniqueIdentifier>{ef190042-4ae9-45ef-9659-447850ea65bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\01. Texture\00. TextureAdmin">
+      <UniqueIdentifier>{d5d32df0-78eb-4a09-b476-263c8c4476a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Resources\00. VIBuffer\04. VIBuffer_ViewPort">
+      <UniqueIdentifier>{ea3bbfaf-2c24-4b80-93a3-89e750c24d78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Resources.cpp">
+      <Filter>00. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ResourcesMgr.cpp">
+      <Filter>01. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VIBuffer.cpp">
+      <Filter>00. Resources\00. VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TriCol.cpp">
+      <Filter>00. Resources\00. VIBuffer\00. TriCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RcTex.cpp">
+      <Filter>00. Resources\00. VIBuffer\01. RcTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Texture.cpp">
+      <Filter>00. Resources\01. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TerrainTex.cpp">
+      <Filter>00. Resources\00. VIBuffer\02. TerrainTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeTex.cpp">
+      <Filter>00. Resources\00. VIBuffer\03. CubeTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mesh.cpp">
+      <Filter>00. Resources\02. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticMesh.cpp">
+      <Filter>00. Resources\02. Mesh\00. StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicMesh.cpp">
+      <Filter>00. Resources\02. Mesh\01. DynamicMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HierarchyLoader.cpp">
+      <Filter>00. Resources\02. Mesh\01. DynamicMesh\00. HierarchyLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AniCtrl.cpp">
+      <Filter>00. Resources\02. Mesh\01. DynamicMesh\01. AniCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MeshAdmin.cpp">
+      <Filter>00. Resources\02. Mesh\99. MeshAdmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NaviMesh.cpp">
+      <Filter>00. Resources\02. Mesh\02. NaviMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cell.cpp">
+      <Filter>00. Resources\02. Mesh\02. NaviMesh\00. Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Line.cpp">
+      <Filter>00. Resources\02. Mesh\02. NaviMesh\01. Line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Curve.cpp">
+      <Filter>00. Resources\02. Mesh\02. NaviMesh\02. Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TextureAdmin.cpp">
+      <Filter>00. Resources\01. Texture\00. TextureAdmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VIBuffer_ViewPort.cpp">
+      <Filter>00. Resources\00. VIBuffer\04. VIBuffer_ViewPort</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Resources.h">
+      <Filter>00. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ResourcesMgr.h">
+      <Filter>01. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VIBuffer.h">
+      <Filter>00. Resources\00. VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TriCol.h">
+      <Filter>00. Resources\00. VIBuffer\00. TriCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RcTex.h">
+      <Filter>00. Resources\00. VIBuffer\01. RcTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Texture.h">
+      <Filter>00. Resources\01. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Export_Resources.h">
+      <Filter>99. Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TerrainTex.h">
+      <Filter>00. Resources\00. VIBuffer\02. TerrainTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeTex.h">
+      <Filter>00. Resources\00. VIBuffer\03. CubeTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Mesh.h">
+      <Filter>00. Resources\02. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticMesh.h">
+      <Filter>00. Resources\02. Mesh\00. StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DynamicMesh.h">
+      <Filter>00. Resources\02. Mesh\01. DynamicMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HierarchyLoader.h">
+      <Filter>00. Resources\02. Mesh\01. DynamicMesh\00. HierarchyLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AniCtrl.h">
+      <Filter>00. Resources\02. Mesh\01. DynamicMesh\01. AniCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MeshAdmin.h">
+      <Filter>00. Resources\02. Mesh\99. MeshAdmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\NaviMesh.h">
+      <Filter>00. Resources\02. Mesh\02. NaviMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cell.h">
+      <Filter>00. Resources\02. Mesh\02. NaviMesh\00. Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Line.h">
+      <Filter>00. Resources\02. Mesh\02. NaviMesh\01. Line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Curve.h">
+      <Filter>00. Resources\02. Mesh\02. NaviMesh\02. Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TextureAdmin.h">
+      <Filter>00. Resources\01. Texture\00. TextureAdmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VIBuffer_ViewPort.h">
+      <Filter>00. Resources\00. VIBuffer\04. VIBuffer_ViewPort</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Header\Export_Resources.inl">
+      <Filter>99. Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>

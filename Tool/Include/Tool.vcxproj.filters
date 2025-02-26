@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{4554dab3-c112-4cfa-8034-d9dc6e06885e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Document">
+      <UniqueIdentifier>{f58e12a5-990c-491a-8203-b9fda0306ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. FrameWnd">
+      <UniqueIdentifier>{0e3945ee-ae8f-4f65-b2f9-3f94daa02c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{5cf050a6-e912-46fd-a874-260e10fae62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\00. Etc">
+      <UniqueIdentifier>{6db2edd2-e7e6-4a2f-95f6-6c6e41d14e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\00. Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="98. Header">
+      <UniqueIdentifier>{793f42eb-9978-4e9b-82c2-0085890190c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Manager">
+      <UniqueIdentifier>{3d8d243c-57c7-4a99-9d55-3739b1ec08ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Manager\00. EditMgr">
+      <UniqueIdentifier>{543d4453-d0e4-45b4-b784-9bc3116e62e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. FrameWnd\01. Form">
+      <UniqueIdentifier>{ad0c54b6-5b7c-4001-b4ae-5e9ee7a0b846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. FrameWnd\00. VIew">
+      <UniqueIdentifier>{3d598e03-fd49-43e2-bc05-778fe5bc2edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. FrameWnd\01. Form\00. EditFormView">
+      <UniqueIdentifier>{246c1b48-5656-4737-ac38-6dfa7fd01445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. FrameWnd\01. Form\01. ConfirmFormView">
+      <UniqueIdentifier>{e3ba7ec8-ea5c-467a-8c97-3faba208c258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Dialog">
+      <UniqueIdentifier>{3b4e7cd2-0a39-4cce-8f27-58caacdac2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Dialog\00. MapTool">
+      <UniqueIdentifier>{0908b41f-d3cd-4b9e-bd68-2b2defaf4a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject">
+      <UniqueIdentifier>{37904922-8432-4851-8bf8-48c82349b561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\00. Terrain">
+      <UniqueIdentifier>{f58d149b-b458-44e7-962e-681712acc8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ToolScene">
+      <UniqueIdentifier>{630f4b2f-cc7a-4f46-a9f3-f151dc5e9567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ToolScene\00. MainScene">
+      <UniqueIdentifier>{7207283f-139f-4ffd-9be7-874881fbf64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ToolScene\99. Public">
+      <UniqueIdentifier>{fdfdf0d6-a9c8-427f-a512-c549bb4901e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\02. MeshObj">
+      <UniqueIdentifier>{8552d05c-8565-4d73-95b3-a702a90a5169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\01. Camera">
+      <UniqueIdentifier>{9430958e-7714-4596-803c-a71f5fc9c28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\01. Camera\00. ToolCamera">
+      <UniqueIdentifier>{0c94eb22-2936-4bbf-9fea-4f15d7a68a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ToolScene\01. PreViewScene">
+      <UniqueIdentifier>{249a2075-9553-4103-819a-878300fbb9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Dialog\02. NaviTool">
+      <UniqueIdentifier>{aa41dd2b-b7c7-4bbd-b310-9851800b54f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. NaviObj">
+      <UniqueIdentifier>{becb6e56-5552-4e61-ba4c-45c6666e05c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\99. PickPoint">
+      <UniqueIdentifier>{e2d80a69-63c7-49fd-9e42-53ba7640b2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\04. CameraObj">
+      <UniqueIdentifier>{458fa064-3b5e-40be-aced-29f42a59384b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Dialog\03. ListTool">
+      <UniqueIdentifier>{96595262-fb0c-45ae-8b0d-e99d57ee717d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Dialog\99. Public">
+      <UniqueIdentifier>{49930240-95a3-44eb-8865-a1e5745abb63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Dialog\99. Public\00. FileInfo">
+      <UniqueIdentifier>{65ec27a4-cd62-4323-92c0-6a3e104ae0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Dialog\01. CameraTool">
+      <UniqueIdentifier>{044023a5-7f84-4bc8-b7f6-47613f864879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Dialog\04. DirectionTool">
+      <UniqueIdentifier>{dd58480c-5cf5-4c89-a58e-726cda2dd242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\05. DirectionObj">
+      <UniqueIdentifier>{3548f80f-084e-4fc1-92aa-7ec927300d5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01. Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02. FrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default\00. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default\00. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Typedef.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Defines.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Enum.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Function.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Macro.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EditMgr.h">
+      <Filter>97. Manager\00. EditMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>02. FrameWnd\00. VIew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EditFormView.h">
+      <Filter>02. FrameWnd\01. Form\00. EditFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ConfirmFormView.h">
+      <Filter>02. FrameWnd\01. Form\01. ConfirmFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MapTool.h">
+      <Filter>03. Dialog\00. MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terrain.h">
+      <Filter>05. GameObject\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolScene.h">
+      <Filter>04. ToolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Loading.h">
+      <Filter>04. ToolScene\99. Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainScene.h">
+      <Filter>04. ToolScene\00. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MeshObj.h">
+      <Filter>05. GameObject\02. MeshObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolCamera.h">
+      <Filter>05. GameObject\01. Camera\00. ToolCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PreViewScene.h">
+      <Filter>04. ToolScene\01. PreViewScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTool.h">
+      <Filter>03. Dialog\01. CameraTool</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviTool.h">
+      <Filter>03. Dialog\02. NaviTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\NaviObj.h">
+      <Filter>05. GameObject\03. NaviObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PickPoint.h">
+      <Filter>05. GameObject\99. PickPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CameraObj.h">
+      <Filter>05. GameObject\04. CameraObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTool.h">
+      <Filter>03. Dialog\03. ListTool</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>03. Dialog\99. Public\00. FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionTool.h">
+      <Filter>03. Dialog\04. DirectionTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DirectionObj.h">
+      <Filter>05. GameObject\05. DirectionObj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01. Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02. FrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EditMgr.cpp">
+      <Filter>97. Manager\00. EditMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>02. FrameWnd\00. VIew</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EditFormView.cpp">
+      <Filter>02. FrameWnd\01. Form\00. EditFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ConfirmFormView.cpp">
+      <Filter>02. FrameWnd\01. Form\01. ConfirmFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MapTool.cpp">
+      <Filter>03. Dialog\00. MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terrain.cpp">
+      <Filter>05. GameObject\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolScene.cpp">
+      <Filter>04. ToolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>04. ToolScene\99. Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainScene.cpp">
+      <Filter>04. ToolScene\00. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MeshObj.cpp">
+      <Filter>05. GameObject\02. MeshObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolCamera.cpp">
+      <Filter>05. GameObject\01. Camera\00. ToolCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PreViewScene.cpp">
+      <Filter>04. ToolScene\01. PreViewScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTool.cpp">
+      <Filter>03. Dialog\01. CameraTool</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviTool.cpp">
+      <Filter>03. Dialog\02. NaviTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NaviObj.cpp">
+      <Filter>05. GameObject\03. NaviObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PickPoint.cpp">
+      <Filter>05. GameObject\99. PickPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CameraObj.cpp">
+      <Filter>05. GameObject\04. CameraObj</Filter>
+    </ClCompile>
+    <ClCompile Include="ListTool.cpp">
+      <Filter>03. Dialog\03. ListTool</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>03. Dialog\99. Public\00. FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionTool.cpp">
+      <Filter>03. Dialog\04. DirectionTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DirectionObj.cpp">
+      <Filter>05. GameObject\05. DirectionObj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99. Default\00. Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99. Default\00. Etc\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99. Default\00. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>99. Default\00. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default\00. Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default\00. Etc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
